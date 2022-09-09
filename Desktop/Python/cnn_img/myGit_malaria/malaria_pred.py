@@ -2,14 +2,14 @@ pip install --quiet gradio
 
 import gradio as gr
 import tensorflow as tf
-import numpy as np 
+import numpy as np
 import pandas as pd
 import requests
 from urllib.request import urlretrieve
 
 
 from numpy import loadtxt 
-from tensorflow.keras.models import load_model 
+from tensorflow.keras.models import load_model
 
 model = load_model('/Users/sadaf/Desktop/Python/cnn_img/cell_images/malaria_model_acc95.h5')
 
